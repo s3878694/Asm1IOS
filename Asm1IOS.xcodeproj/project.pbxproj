@@ -17,6 +17,8 @@
 		418BCB82288A5743004916AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418BCB81288A5743004916AC /* Assets.xcassets */; };
 		418BCB85288A5743004916AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418BCB84288A5743004916AC /* Preview Assets.xcassets */; };
 		41FDB021289FB1A100D303CC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDB020289FB1A100D303CC /* CircleImage.swift */; };
+		41FDB023289FB44200D303CC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDB022289FB44200D303CC /* Color.swift */; };
+		41FDB025289FB8ED00D303CC /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDB024289FB8ED00D303CC /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		418BCB81288A5743004916AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418BCB84288A5743004916AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41FDB020289FB1A100D303CC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		41FDB022289FB44200D303CC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		41FDB024289FB8ED00D303CC /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 				4149DDAC289EDCFE00F08F4D /* CourseCard.swift */,
 				4149DDAE289EDDB700F08F4D /* CourseRow.swift */,
 				41FDB020289FB1A100D303CC /* CircleImage.swift */,
+				41FDB024289FB8ED00D303CC /* DescriptionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			children = (
 				4149DDA4289ED63C00F08F4D /* Course.swift */,
 				4149DDA6289ED77800F08F4D /* MockData.swift */,
+				41FDB022289FB44200D303CC /* Color.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 				418BCB80288A5742004916AC /* ContentView.swift in Sources */,
 				4149DDAD289EDCFE00F08F4D /* CourseCard.swift in Sources */,
 				418BCB7E288A5742004916AC /* Asm1IOSApp.swift in Sources */,
+				41FDB023289FB44200D303CC /* Color.swift in Sources */,
+				41FDB025289FB8ED00D303CC /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

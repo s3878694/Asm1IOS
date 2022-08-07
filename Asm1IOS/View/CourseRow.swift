@@ -10,7 +10,10 @@ import SwiftUI
 struct CourseRow: View {
     var course: Course
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            course.image.resizable().frame(width: 60, height: 60)
+            Text(course.courseName)
+        }
     }
 }
 

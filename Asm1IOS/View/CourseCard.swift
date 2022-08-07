@@ -10,13 +10,26 @@ import SwiftUI
 struct CourseCard: View {
     var course: Course
     var body: some View{
-        Text("Hello World")
+        ZStack {
+            colorForApp.rmitBlue.edgesIgnoringSafeArea(.all)
+            VStack {
+                Spacer()
+                CircleImage(image: course.image)
+                Text(course.courseId).font(.system(size:30)).bold().foregroundColor(.white)
+                
+                Spacer()
+                DescriptionView(description: course.description, name: course.courseName)
+                
+                Spacer()
+                
+            }
+        }
     }
    
 }
 
 struct CourseCard_Previews: PreviewProvider {
     static var previews: some View {
-        CourseCard(course: courses[0])
+        CourseCard(course: courses[3])
     }
 }
