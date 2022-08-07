@@ -17,7 +17,7 @@ struct CourseList: View {
                    } label: {
                        CourseRow(course: course)
                    }
-                   .navigationTitle("SSET Courses 📚")
+                   .navigationTitle("SSET Courses RMIT 📚")
                }
            }
            

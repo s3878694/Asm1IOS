@@ -16,6 +16,7 @@
 		418BCB80288A5742004916AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BCB7F288A5742004916AC /* ContentView.swift */; };
 		418BCB82288A5743004916AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418BCB81288A5743004916AC /* Assets.xcassets */; };
 		418BCB85288A5743004916AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418BCB84288A5743004916AC /* Preview Assets.xcassets */; };
+		41FDB021289FB1A100D303CC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDB020289FB1A100D303CC /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		418BCB7F288A5742004916AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		418BCB81288A5743004916AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418BCB84288A5743004916AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41FDB020289FB1A100D303CC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 				4149DDAA289EDCE200F08F4D /* CourseList.swift */,
 				4149DDAC289EDCFE00F08F4D /* CourseCard.swift */,
 				4149DDAE289EDDB700F08F4D /* CourseRow.swift */,
+				41FDB020289FB1A100D303CC /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4149DDA5289ED63C00F08F4D /* Course.swift in Sources */,
+				41FDB021289FB1A100D303CC /* CircleImage.swift in Sources */,
 				4149DDAB289EDCE200F08F4D /* CourseList.swift in Sources */,
 				4149DDA7289ED77800F08F4D /* MockData.swift in Sources */,
 				4149DDAF289EDDB700F08F4D /* CourseRow.swift in Sources */,
