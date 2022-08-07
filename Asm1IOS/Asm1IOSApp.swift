@@ -13,7 +13,7 @@
   ID: 3878694
   Created  date: 22/07/2022
   Last modified: 07/08/2022
-  Acknowledgement: Acknowledge the resources that you use here.
+  Acknowledgement: Youtube tutorials, Stack Overflow, and https://github.com/TomHuynhSG/SSETContactList github page
 */
 
 import SwiftUI
