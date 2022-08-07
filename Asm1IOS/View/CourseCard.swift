@@ -30,6 +30,6 @@ struct CourseCard: View {
 
 struct CourseCard_Previews: PreviewProvider {
     static var previews: some View {
-        CourseCard(course: courses[3])
+        CourseCard(course: courses[0])
     }
 }

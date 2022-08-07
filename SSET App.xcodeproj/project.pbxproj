@@ -27,7 +27,7 @@
 		4149DDAA289EDCE200F08F4D /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		4149DDAC289EDCFE00F08F4D /* CourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCard.swift; sourceTree = "<group>"; };
 		4149DDAE289EDDB700F08F4D /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
-		418BCB7A288A5742004916AC /* Asm1IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asm1IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418BCB7A288A5742004916AC /* SSET App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSET App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		418BCB7D288A5742004916AC /* Asm1IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asm1IOSApp.swift; sourceTree = "<group>"; };
 		418BCB7F288A5742004916AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		418BCB81288A5743004916AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		418BCB7B288A5742004916AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				418BCB7A288A5742004916AC /* Asm1IOS.app */,
+				418BCB7A288A5742004916AC /* SSET App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		418BCB79288A5742004916AC /* Asm1IOS */ = {
+		418BCB79288A5742004916AC /* SSET App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 418BCB88288A5743004916AC /* Build configuration list for PBXNativeTarget "Asm1IOS" */;
+			buildConfigurationList = 418BCB88288A5743004916AC /* Build configuration list for PBXNativeTarget "SSET App" */;
 			buildPhases = (
 				418BCB76288A5742004916AC /* Sources */,
 				418BCB77288A5742004916AC /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = Asm1IOS;
+			name = "SSET App";
 			productName = Asm1IOS;
-			productReference = 418BCB7A288A5742004916AC /* Asm1IOS.app */;
+			productReference = 418BCB7A288A5742004916AC /* SSET App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 418BCB75288A5742004916AC /* Build configuration list for PBXProject "Asm1IOS" */;
+			buildConfigurationList = 418BCB75288A5742004916AC /* Build configuration list for PBXProject "SSET App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				418BCB79288A5742004916AC /* Asm1IOS */,
+				418BCB79288A5742004916AC /* SSET App */,
 			);
 		};
 /* End PBXProject section */
@@ -366,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		418BCB75288A5742004916AC /* Build configuration list for PBXProject "Asm1IOS" */ = {
+		418BCB75288A5742004916AC /* Build configuration list for PBXProject "SSET App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				418BCB86288A5743004916AC /* Debug */,
@@ -375,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		418BCB88288A5743004916AC /* Build configuration list for PBXNativeTarget "Asm1IOS" */ = {
+		418BCB88288A5743004916AC /* Build configuration list for PBXNativeTarget "SSET App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				418BCB89288A5743004916AC /* Debug */,

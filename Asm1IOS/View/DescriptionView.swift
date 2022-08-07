@@ -19,5 +19,6 @@ struct DescriptionView: View {
 
 struct DescriptionView_Previews: PreviewProvider {
     static var previews: some View {
-        DescriptionView(description: "https://appicon.co/#image-sets", name: "Course") }
+        DescriptionView(description: "https://appicon.co/#image-sets", name: "Course")
+    }
 }
